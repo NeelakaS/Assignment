@@ -29,30 +29,35 @@ const USER_DATA = [
 
 const DEFAULT_PROPS = {
   fetchUserData: jest.fn(),
-  userData: jest.fn,
-  navigation: jest.fn(),
+  userData: [],
+  navigation: {
+    getParam: jest.fn(),
+  },
   loading: false,
 };
 
 const middlewares = [saga];
 const mockStore = configureMockStore(middlewares);
 let wrapper;
+describe('User Component', () => {
+  it('render UserComponent correctly', () => {
+    const initialState = {
+      userData: {
+        data: USER_DATA,
+        isDataFetched: false,
+        isFetching: false,
+        isError: false,
+      },
+    };
+    const store = mockStore(initialState);
 
-it('render UserComponent correctly', () => {
-  const initialState = {
-    data: USER_DATA,
-    isDataFetched: false,
-    isFetching: false,
-    isError: false,
-  };
-  const store = mockStore(initialState);
-
-  wrapper = renderer
-    .create(
-      <Provider store={store}>
-        <UserComponent {...DEFAULT_PROPS} />
-      </Provider>,
-    )
-    .toJson();
-  expect(wrapper).toMatchSnapshot();
+    wrapper = renderer
+      .create(
+        <Provider store={store}>
+          <UserComponent {...DEFAULT_PROPS} />
+        </Provider>,
+      )
+      .toJSON();
+    expect(wrapper).toMatchSnapshot();
+  });
 });
