@@ -10,7 +10,6 @@ import getPlaceInfo from '../services/photosService';
 function* fetchPhotoData(action) {
   try {
     const photoData = yield getPlaceInfo(action.payload);
-    console.log('photo_saga', photoData);
     yield put({type: FETCHING_PHOTO_DATA_SUCCESS, photoData});
   } catch (error) {
     yield put({type: FETCHING_PHOTO_ERROR});
