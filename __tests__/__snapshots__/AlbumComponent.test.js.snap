@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Compoent render UserComponent correctly 1`] = `
+<RCTScrollView
+  ItemSeparatorComponent={[Function]}
+  data={
+    Array [
+      Object {
+        "id": 82,
+        "title": "recusandae consequatur vel amet unde",
+        "userId": 9,
+      },
+      Object {
+        "id": 83,
+        "title": "aperiam odio fugiat",
+        "userId": 9,
+      },
+      Object {
+        "id": 84,
+        "title": "est et at eos expedita",
+        "userId": 9,
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "flex": 1,
+            "height": 60,
+            "justifyContent": "center",
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          numberOfLines={2}
+          style={
+            Object {
+              "fontSize": 15,
+              "fontWeight": "bold",
+              "lineHeight": 25,
+            }
+          }
+        >
+          recusandae consequatur vel amet unde
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#404041",
+            "minHeight": 0.5,
+            "opacity": 0.3,
+          }
+        }
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "flex": 1,
+            "height": 60,
+            "justifyContent": "center",
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          numberOfLines={2}
+          style={
+            Object {
+              "fontSize": 15,
+              "fontWeight": "bold",
+              "lineHeight": 25,
+            }
+          }
+        >
+          aperiam odio fugiat
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#404041",
+            "minHeight": 0.5,
+            "opacity": 0.3,
+          }
+        }
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "flex": 1,
+            "height": 60,
+            "justifyContent": "center",
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          numberOfLines={2}
+          style={
+            Object {
+              "fontSize": 15,
+              "fontWeight": "bold",
+              "lineHeight": 25,
+            }
+          }
+        >
+          est et at eos expedita
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

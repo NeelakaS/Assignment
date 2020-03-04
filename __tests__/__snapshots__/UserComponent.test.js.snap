@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Component render UserComponent correctly 1`] = `
+<RCTScrollView
+  ItemSeparatorComponent={[Function]}
+  data={
+    Array [
+      Object {
+        "email": "Sincere@april.biz",
+        "id": 1,
+        "name": "Leanne Graham",
+        "phone": "1-770-736-8031 x56442",
+        "username": "Bret",
+        "website": "hildegard.org",
+      },
+      Object {
+        "email": "Shanna@melissa.tv",
+        "id": 2,
+        "name": "Ervin Howell",
+        "phone": "010-692-6593 x09125",
+        "username": "Antonette",
+        "website": "anastasia.net",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "flexDirection": "row",
+            "height": 100,
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginHorizontal": 10,
+              "width": "15%",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/component/img/user_thumbnail.png",
+              }
+            }
+          />
+        </View>
+        <View>
+          <Text
+            style={
+              Object {
+                "fontSize": 17,
+                "fontWeight": "bold",
+                "lineHeight": 25,
+              }
+            }
+          >
+            Leanne Graham
+          </Text>
+          <Text>
+            Email: 
+            Sincere@april.biz
+          </Text>
+          <Text>
+            Phone: 
+            1-770-736-8031 x56442
+          </Text>
+          <Text>
+            Website: 
+            hildegard.org
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#404041",
+            "minHeight": 0.5,
+            "opacity": 0.3,
+          }
+        }
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "flexDirection": "row",
+            "height": 100,
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginHorizontal": 10,
+              "width": "15%",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/component/img/user_thumbnail.png",
+              }
+            }
+          />
+        </View>
+        <View>
+          <Text
+            style={
+              Object {
+                "fontSize": 17,
+                "fontWeight": "bold",
+                "lineHeight": 25,
+              }
+            }
+          >
+            Ervin Howell
+          </Text>
+          <Text>
+            Email: 
+            Shanna@melissa.tv
+          </Text>
+          <Text>
+            Phone: 
+            010-692-6593 x09125
+          </Text>
+          <Text>
+            Website: 
+            anastasia.net
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
