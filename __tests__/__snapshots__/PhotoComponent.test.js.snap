@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Photo Component render PhotoComponent correctly 1`] = `
+<View>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    data={
+      Array [
+        Object {
+          "albumId": 5,
+          "id": 215,
+          "thumbnailUrl": "www.yze.com",
+          "title": "in magnam praesentium ab illum",
+          "url": "XYZ.Com/src",
+        },
+        Object {
+          "albumId": 5,
+          "id": 216,
+          "thumbnailUrl": "www.yze.com",
+          "title": "itaque nihil voluptatum",
+          "url": "XYZ.Com/src",
+        },
+        Object {
+          "albumId": 5,
+          "id": 217,
+          "thumbnailUrl": "www.yze.com",
+          "title": "ab ut placeat fuga",
+          "url": "XYZ.Com/src",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "height": 220,
+              "justifyContent": "center",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 25,
+              }
+            }
+          >
+            in magnam praesentium ab illum
+          </Text>
+          <Image
+            source={
+              Object {
+                "uri": "www.yze.com",
+              }
+            }
+            style={
+              Object {
+                "height": 150,
+                "width": 150,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#404041",
+              "minHeight": 0.5,
+              "opacity": 0.3,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "height": 220,
+              "justifyContent": "center",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 25,
+              }
+            }
+          >
+            itaque nihil voluptatum
+          </Text>
+          <Image
+            source={
+              Object {
+                "uri": "www.yze.com",
+              }
+            }
+            style={
+              Object {
+                "height": 150,
+                "width": 150,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#404041",
+              "minHeight": 0.5,
+              "opacity": 0.3,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "height": 220,
+              "justifyContent": "center",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 25,
+              }
+            }
+          >
+            ab ut placeat fuga
+          </Text>
+          <Image
+            source={
+              Object {
+                "uri": "www.yze.com",
+              }
+            }
+            style={
+              Object {
+                "height": 150,
+                "width": 150,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

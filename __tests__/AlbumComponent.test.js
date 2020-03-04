@@ -28,30 +28,35 @@ const ALBUM_DATA = [
 
 const DEFAULT_PROPS = {
   fetchUserData: jest.fn(),
-  userData: jest.fn,
-  navigation: jest.fn(),
+  albumData: [],
+  navigation: {
+    getParam: jest.fn(),
+  },
   loading: false,
 };
 
 const middlewares = [saga];
 const mockStore = configureMockStore(middlewares);
 let wrapper;
+describe('Album Component', () => {
+  it('render AlbumComponent correctly', () => {
+    const initialState = {
+      albumData: {
+        data: ALBUM_DATA,
+        isDataFetched: false,
+        isFetching: false,
+        isError: false,
+      },
+    };
+    const store = mockStore(initialState);
 
-it('render UserComponent correctly', () => {
-  const initialState = {
-    data: ALBUM_DATA,
-    isDataFetched: false,
-    isFetching: false,
-    isError: false,
-  };
-  const store = mockStore(initialState);
-
-  wrapper = renderer
-    .create(
-      <Provider store={store}>
-        <AlbumComponent {...DEFAULT_PROPS} />
-      </Provider>,
-    )
-    .toJson();
-  expect(wrapper).toMatchSnapshot();
+    wrapper = renderer
+      .create(
+        <Provider store={store}>
+          <AlbumComponent {...DEFAULT_PROPS} />
+        </Provider>,
+      )
+      .toJSON();
+    expect(wrapper).toMatchSnapshot();
+  });
 });
